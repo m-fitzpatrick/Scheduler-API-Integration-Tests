@@ -62,6 +62,7 @@
     <Compile Include="ApiClient\ApiClientHelper.cs" />
     <Compile Include="ApiClient\HttpClientExtensions.cs" />
     <Compile Include="ApiClient\TokenHelper.cs" />
+    <Compile Include="EndpointsTests\EmployeeEndpointTests.cs" />
     <Compile Include="EndpointsTests\GivenAnApiClientHelper.cs" />
     <Compile Include="EndpointsTests\JobCodeEndpointsTests.cs" />
     <Compile Include="EndpointsTests\StatusEndpointsTests.cs" />

@@ -73,13 +73,7 @@ namespace Scheduler.API.IntegrationTests.Models
         public string CellPhone { get; set; }
 
         public string HomePhone { get; set; }
-
-        public string Username { get; set; }
         
-        public string Password { get; set; }
-
-        public string ConfirmPassword { get; set; }
-
         public DateTime HireDate { get; set; }
 
         /// <summary>
@@ -102,7 +96,7 @@ namespace Scheduler.API.IntegrationTests.Models
         /// <summary>
         /// FullTime = 0,PartTime = 1
         /// </summary>
-        public StatusType Status { get; set; }
+        public int Status { get; set; }
 
         /// <summary>
         /// Determines if this Employee can be assigned as other employee's supervisor
@@ -123,5 +117,11 @@ namespace Scheduler.API.IntegrationTests.Models
         /// The system identifier of the Employee that is this Employee's Supervisor
         /// </summary>
         public Guid? SupervisorId { get; set; }
+
+        public string Username { get; set; }
+
+        public string Password { get; set; }
+
+        public string ConfirmPassword { get; set; }
     }
 }
